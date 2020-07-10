@@ -34,8 +34,13 @@ body {
     padding: 10px 0;
 
     a {
-        @include link($main-color);
         color: #fff;
+        text-decoration: none;
+        &:hover,
+        &:active {
+            @include link(#fff, 20%);
+            text-decoration: underline;
+        }
     }
 }
 

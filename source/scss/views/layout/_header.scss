@@ -85,7 +85,13 @@ body {
         }
 
         .page__nav .nav__item a:hover {
-            color: darken($main-color, 20%);
+            color: #fff;
+            text-decoration: none;
+            &:hover,
+            &:active {
+                @include link(#fff, 20%);
+                text-decoration: underline;
+            }
         }
     }
 }
