@@ -5,6 +5,6 @@
 ***
 
 #### Demo地址 [我的博客](http://foxa.cc:88)
+<img src="E:\Projects\skapp\hexo-theme-skapp\1.png" alt="1" style="zoom:50%;" />
 
-
-
+<img src="E:\Projects\skapp\hexo-theme-skapp\2.png" alt="2" style="zoom:50%;" />
