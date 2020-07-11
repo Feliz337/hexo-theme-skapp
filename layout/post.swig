@@ -9,11 +9,17 @@
 {% endblock %}
 
 {% block main %}
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/styles/atom-one-dark.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
     {% include './_partial/post/main.swig' %}
 {% endblock %}
 
 {% block pagejs %}
     {{ js('js/page/post.js') }}
+
 {% endblock %}
 
 {% block other %}

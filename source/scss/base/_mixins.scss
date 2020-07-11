@@ -185,12 +185,13 @@
     }
 
     code {
-        padding: 0 .4em;
+        padding: 1.2em;
         margin: 0;
-        background-color: rgba(27,31,35,0.05);
-        border-radius: 3px;
+        //background-color: rgba(27,31,35,0.05);
+        border-radius: 6px;
         font-weight: 400;
         word-break: break-all;
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     }
 
     hr {
