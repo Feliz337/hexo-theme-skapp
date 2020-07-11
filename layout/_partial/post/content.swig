@@ -56,18 +56,18 @@
     <div class="post__content">
         {{ render(page.content) }}
 
-        {% if page.editor %}
-        <div class="post-announce">
-            {{ __('copyright_statement.one') }}
-            <a href="{{ page.editor.link }}">{{ page.editor.name }}</a> {{ __('copyright_statement.two') }}：{{ page.editor.name }}（<a href="{{ page.editor.link }}">{{ page.editor.link }}</a>）
-        </div> 
-        {% else %}
-        <div class="post-announce">
-            {{ __('copyright_statement.three') }}
-            <a href="{{ config.url }}">{{ get_setting('title') }}</a>
-            {{ __('copyright_statement.four') }}：{{ get_setting('title') }}（<a href="{{ config.url }}{{ url_for(page.path) }}">{{ config.url }}{{ url_for(page.path) }}</a>）
-        </div>
-        {% endif %}
+{#        {% if page.editor %}#}
+{#        <div class="post-announce">#}
+{#            {{ __('copyright_statement.one') }}#}
+{#            <a href="{{ page.editor.link }}">{{ page.editor.name }}</a> {{ __('copyright_statement.two') }}：{{ page.editor.name }}（<a href="{{ page.editor.link }}">{{ page.editor.link }}</a>）#}
+{#        </div> #}
+{#        {% else %}#}
+{#        <div class="post-announce">#}
+{#            {{ __('copyright_statement.three') }}#}
+{#            <a href="{{ config.url }}">{{ get_setting('title') }}</a>#}
+{#            {{ __('copyright_statement.four') }}：{{ get_setting('title') }}（<a href="{{ config.url }}{{ url_for(page.path) }}">{{ config.url }}{{ url_for(page.path) }}</a>）#}
+{#        </div>#}
+{#        {% endif %}#}
 
         <div class="post__prevs">
             <div class="post__prev">

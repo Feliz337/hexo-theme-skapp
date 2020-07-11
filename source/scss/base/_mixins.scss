@@ -87,7 +87,7 @@
     a {
         color: $main-color;
         transition: color .3s;
-        text-decoration: none;
+        text-decoration: underline;
 
         &:hover,
         &:active {

@@ -150,6 +150,7 @@ body {
             height: $nav-height;
             line-height: $nav-height;
             padding: 0 $pad;
+            text-decoration: none;
             @include link($main-color);
             color: #fff;
         }
