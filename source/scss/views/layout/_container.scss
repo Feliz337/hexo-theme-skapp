@@ -1,4 +1,10 @@
 body {
+    @media screen and (max-width: $mq-mobile){
+
+        .page__sidebar {
+            display: none;
+        }
+    }
     @media screen and (min-width: $mq-mobile) {
         // .page__container {
         //     width: $mq-mobile - 30px;
@@ -8,6 +14,7 @@ body {
             padding-top: 80px;
             padding-bottom: 80px;
         }
+
     }
 
     @media screen and (min-width: $mq-desktop) {
@@ -18,6 +25,7 @@ body {
         .page__sidebar {
             width: 260px;
             margin-top: 0;
+            margin-right: 3*$pad;
         }
 
         .page__content {

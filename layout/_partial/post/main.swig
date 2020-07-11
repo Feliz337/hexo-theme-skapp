@@ -1,4 +1,6 @@
 <main class="page__container page__main">
+    {% include '../common/sidebar.swig' %}
+
     <div class="page__content">
         {% include './content.swig' %}
 
@@ -10,5 +12,5 @@
         {% endif %}
     </div>
 
-    {% include '../common/sidebar.swig' %}
+
 </main>

@@ -1,4 +1,7 @@
 <main class="page__container page__main">
+
+    {% include '../common/sidebar.swig' %}
+
     <div class="page__content">
         <div class="page__posts clearfix">
             {% for post in page.posts %}
@@ -11,5 +14,4 @@
         {{ s_paginator(3) }}
     </div>
 
-    {% include '../common/sidebar.swig' %}
 </main>

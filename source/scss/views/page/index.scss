@@ -6,7 +6,7 @@ body {
     @media screen and (min-width: $mq-desktop) {
         .page__posts {
             margin-top: -2 * $pad;
-            margin-right: -2 * $pad;
+            margin-right: -4 * $pad;
         }
 
         .page__post {
